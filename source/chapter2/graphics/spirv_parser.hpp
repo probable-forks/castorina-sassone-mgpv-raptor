@@ -6,7 +6,7 @@
 #if defined(_MSC_VER)
 #include <spirv-headers/spirv.h>
 #else
-#include <spirv_cross/spirv.h>
+#include <spirv/unified1/spirv.h>
 #endif
 #include <vulkan/vulkan.h>
 
